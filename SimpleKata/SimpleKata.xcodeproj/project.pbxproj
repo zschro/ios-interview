@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		48F09CB324C0C9B700200966 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F09CB224C0C9B700200966 /* AppDelegate.m */; };
-		48F09CB624C0C9B700200966 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F09CB524C0C9B700200966 /* SceneDelegate.m */; };
-		48F09CB924C0C9B700200966 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F09CB824C0C9B700200966 /* ViewController.m */; };
-		48F09CBC24C0C9B700200966 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F09CBA24C0C9B700200966 /* Main.storyboard */; };
+		0B0EC9CB2769293300698173 /* SimpleKataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0EC9CA2769293300698173 /* SimpleKataApp.swift */; };
+		0B0EC9CD276929A000698173 /* SimpleKataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0EC9CC276929A000698173 /* SimpleKataView.swift */; };
+		0B0EC9CF27692A6F00698173 /* SimpleKataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0EC9CE27692A6F00698173 /* SimpleKataViewController.swift */; };
+		0B0EC9D127692AD100698173 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0B0EC9D027692AD100698173 /* README.md */; };
 		48F09CBE24C0C9B800200966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48F09CBD24C0C9B800200966 /* Assets.xcassets */; };
-		48F09CC124C0C9B800200966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F09CBF24C0C9B800200966 /* LaunchScreen.storyboard */; };
-		48F09CC424C0C9B800200966 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F09CC324C0C9B800200966 /* main.m */; };
 		48F09CCE24C0C9B800200966 /* SimpleKataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F09CCD24C0C9B800200966 /* SimpleKataTests.m */; };
 		48F09CD924C0C9B800200966 /* SimpleKataUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F09CD824C0C9B800200966 /* SimpleKataUITests.m */; };
 /* End PBXBuildFile section */
@@ -36,18 +34,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B0EC9CA2769293300698173 /* SimpleKataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleKataApp.swift; sourceTree = "<group>"; };
+		0B0EC9CC276929A000698173 /* SimpleKataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleKataView.swift; sourceTree = "<group>"; };
+		0B0EC9CE27692A6F00698173 /* SimpleKataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleKataViewController.swift; sourceTree = "<group>"; };
+		0B0EC9D027692AD100698173 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		48F09CAE24C0C9B700200966 /* SimpleKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		48F09CB124C0C9B700200966 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		48F09CB224C0C9B700200966 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		48F09CB424C0C9B700200966 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		48F09CB524C0C9B700200966 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		48F09CB724C0C9B700200966 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		48F09CB824C0C9B700200966 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		48F09CBB24C0C9B700200966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48F09CBD24C0C9B800200966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		48F09CC024C0C9B800200966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48F09CC224C0C9B800200966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		48F09CC324C0C9B800200966 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48F09CC924C0C9B800200966 /* SimpleKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F09CCD24C0C9B800200966 /* SimpleKataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleKataTests.m; sourceTree = "<group>"; };
 		48F09CCF24C0C9B800200966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -104,17 +97,12 @@
 		48F09CB024C0C9B700200966 /* SimpleKata */ = {
 			isa = PBXGroup;
 			children = (
-				48F09CB124C0C9B700200966 /* AppDelegate.h */,
-				48F09CB224C0C9B700200966 /* AppDelegate.m */,
-				48F09CB424C0C9B700200966 /* SceneDelegate.h */,
-				48F09CB524C0C9B700200966 /* SceneDelegate.m */,
-				48F09CB724C0C9B700200966 /* ViewController.h */,
-				48F09CB824C0C9B700200966 /* ViewController.m */,
-				48F09CBA24C0C9B700200966 /* Main.storyboard */,
+				0B0EC9D027692AD100698173 /* README.md */,
 				48F09CBD24C0C9B800200966 /* Assets.xcassets */,
-				48F09CBF24C0C9B800200966 /* LaunchScreen.storyboard */,
 				48F09CC224C0C9B800200966 /* Info.plist */,
-				48F09CC324C0C9B800200966 /* main.m */,
+				0B0EC9CA2769293300698173 /* SimpleKataApp.swift */,
+				0B0EC9CC276929A000698173 /* SimpleKataView.swift */,
+				0B0EC9CE27692A6F00698173 /* SimpleKataViewController.swift */,
 			);
 			path = SimpleKata;
 			sourceTree = "<group>";
@@ -204,6 +192,7 @@
 				TargetAttributes = {
 					48F09CAD24C0C9B700200966 = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1250;
 					};
 					48F09CC824C0C9B800200966 = {
 						CreatedOnToolsVersion = 11.6;
@@ -240,9 +229,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48F09CC124C0C9B800200966 /* LaunchScreen.storyboard in Resources */,
+				0B0EC9D127692AD100698173 /* README.md in Resources */,
 				48F09CBE24C0C9B800200966 /* Assets.xcassets in Resources */,
-				48F09CBC24C0C9B700200966 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,10 +255,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48F09CB924C0C9B700200966 /* ViewController.m in Sources */,
-				48F09CB324C0C9B700200966 /* AppDelegate.m in Sources */,
-				48F09CC424C0C9B800200966 /* main.m in Sources */,
-				48F09CB624C0C9B700200966 /* SceneDelegate.m in Sources */,
+				0B0EC9CB2769293300698173 /* SimpleKataApp.swift in Sources */,
+				0B0EC9CD276929A000698173 /* SimpleKataView.swift in Sources */,
+				0B0EC9CF27692A6F00698173 /* SimpleKataViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,25 +291,6 @@
 			targetProxy = 48F09CD524C0C9B800200966 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		48F09CBA24C0C9B700200966 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				48F09CBB24C0C9B700200966 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		48F09CBF24C0C9B800200966 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				48F09CC024C0C9B800200966 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		48F09CDB24C0C9B800200966 /* Debug */ = {
@@ -439,15 +407,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VY2QQ3MJBD;
 				INFOPLIST_FILE = SimpleKata/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zschro.SimpleKata;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -456,15 +428,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VY2QQ3MJBD;
 				INFOPLIST_FILE = SimpleKata/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zschro.SimpleKata;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -472,6 +447,7 @@
 		48F09CE124C0C9B800200966 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VY2QQ3MJBD;
@@ -492,6 +468,7 @@
 		48F09CE224C0C9B800200966 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VY2QQ3MJBD;
@@ -512,6 +489,7 @@
 		48F09CE424C0C9B800200966 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VY2QQ3MJBD;
 				INFOPLIST_FILE = SimpleKataUITests/Info.plist;
@@ -530,6 +508,7 @@
 		48F09CE524C0C9B800200966 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VY2QQ3MJBD;
 				INFOPLIST_FILE = SimpleKataUITests/Info.plist;
